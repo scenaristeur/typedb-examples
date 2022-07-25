@@ -22,9 +22,9 @@
     "main": "index.js",
     "name": "typedb-nodejs-migration-csv-example",
     "scripts": {
-        "migrateCsv": "node -e 'require(\"./migrateCsv\").init(\"../../datasets/phone-calls/\")'",
-        "migrateJson": "node -e 'require(\"./migrateJson\").init(\"../../datasets/phone-calls/\")'",
-        "migrateXml": "node -e 'require(\"./migrateXml\").init(\"../../datasets/phone-calls/\")'",
+        "migrateCsv": "node -e 'require(\"./migrateCsv\").init(\"../data/\")'",
+        "migrateJson": "node -e 'require(\"./migrateJson\").init(\"../data/\")'",
+        "migrateXml": "node -e 'require(\"./migrateXml\").init(\"../data/\")'",
         "queries": "node -e 'require(\"./queries\").init()'"
     },
     "version": "1.0.0"
